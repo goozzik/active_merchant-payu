@@ -106,6 +106,8 @@ module ActiveMerchant
             return ["denied", amount]
           when "4"
             return ["created", amount]
+          when "5"
+            return ["waiting", amount]
           when "7"
             return ["denied", amount]
           when "99"
